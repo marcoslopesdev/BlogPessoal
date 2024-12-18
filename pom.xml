@@ -19,6 +19,12 @@
     </properties>
 
     <dependencies>
+    	<!-- Dependência do Banco de dados PostgreSQL -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency> 
+		
         <!-- SpringDoc para Spring Boot 3.x -->
         <dependency>
             <groupId>org.springdoc</groupId>
